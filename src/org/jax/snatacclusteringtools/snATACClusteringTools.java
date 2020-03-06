@@ -8,7 +8,7 @@ import org.jax.snatacclusteringtools.peakprocessing.SummitPeakMerger;
 import org.jax.snatacclusteringtools.sparsematrix.SparseMatrixGenerator;
 import org.jax.snatacclusteringtools.splitbam.BAMSplitter;
 
-public class snATACClustering {
+public class snATACClusteringTools {
 	
 	public static void main(String[] args) {
 		if (args.length < 1) {
@@ -24,7 +24,7 @@ public class snATACClustering {
 			System.exit(0);
 		}
 		
-		new snATACClustering().runCommand(args);
+		new snATACClusteringTools().runCommand(args);
 	}
 
 	private void runCommand(String[] args) {
